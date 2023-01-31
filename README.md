@@ -5,7 +5,11 @@ This repository aims to provide the minimum setup required to reproduce a bug in
 ## Setup
 
 - After clone, copy over `.env.example` to   `.env`
-- create a database for this project and use int in the .env
+- `composer install`
+- create a database for this project and use it in the .env
+
+Run the following commands:
+
 - `php artisan key:generate`
 - `php artisan migrate`
 - `php artisan horizon`
