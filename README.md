@@ -11,6 +11,11 @@ This repository aims to provide the minimum setup required to reproduce a bug in
 Run the following commands:
 
 - `php artisan key:generate`
+- `npm install`
+- `npm run dev`
+
+Open another terminal window and run:
+
 - `php artisan migrate`
 - `php artisan horizon`
 
